@@ -1,37 +1,47 @@
-package com.examples.test;
+package testCode;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.logging.LogEntries;
+import org.openqa.selenium.logging.LogEntry;
+import org.openqa.selenium.logging.LogType;
+import org.openqa.selenium.logging.Logs;
 import org.openqa.selenium.opera.OperaDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import pageObjects.CheckBoxElement;
+import pageObjects.LoginElement;
+import pageObjects.RadioButtonElement;
 
+import java.io.*;
 import java.util.concurrent.TimeUnit;
 
 import static org.testng.Assert.assertTrue;
 
 public class PageObjectChecking {
-    private WebDriver driver;
+    private WebDriver driver; //used WebDriver
+    private DesiredCapabilities cap;
 
+    //Select browser
     @Parameters("browser")
-
-    @BeforeClass(alwaysRun = true)
+    @BeforeTest(alwaysRun = true)
     public void selectBrowser(String browser)
     {
-        if (browser.equalsIgnoreCase("firefox")) driver = new FirefoxDriver();
-        if (browser.equalsIgnoreCase("ie")) driver = new InternetExplorerDriver();
-        if (browser.equalsIgnoreCase("chrome")) driver = new ChromeDriver();
-        if (browser.equalsIgnoreCase("opera")) driver = new OperaDriver();
-        if (browser.equalsIgnoreCase("safari")) driver = new SafariDriver();
+        if (browser.equalsIgnoreCase("firefox")) driver = new FirefoxDriver(cap);
+        if (browser.equalsIgnoreCase("ie")) driver = new InternetExplorerDriver(cap);
+        if (browser.equalsIgnoreCase("chrome")) driver = new ChromeDriver(cap);
+        if (browser.equalsIgnoreCase("opera")) driver = new OperaDriver(cap);
+        if (browser.equalsIgnoreCase("safari")) driver = new SafariDriver(cap);
     }
 
-    @BeforeTest(alwaysRun = true)
+    @BeforeClass(alwaysRun = true)
     public void setUp() {
-       driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-       driver.manage().window().maximize();
-
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
     }
 
     //Login test
@@ -45,11 +55,9 @@ public class PageObjectChecking {
             WebElement logoutElement = driver.findElement(By.cssSelector(".logout"));
             assertTrue((logoutElement).isEnabled());
             logoutElement.click();
-            System.out.println("Login test done successfuly!");
         }
         else {
             assertTrue((driver.findElement(By.xpath("//button[@type='submit']"))).isEnabled());
-            System.out.println("Login test done successfuly!");
         }
     }
     //PageObject test
@@ -69,10 +77,32 @@ public class PageObjectChecking {
         new RadioButtonElement(driver, "Silver").check();
         new RadioButtonElement(driver, "Bronze").check();
         new RadioButtonElement(driver, "Selen").check();
+
+        //get screenshot
+        File screenshot = ((TakesScreenshot) driver).
+                getScreenshotAs(OutputType.FILE);
+        String path = "./logsAndScreenshots/screenshots/" + screenshot.getName();
+        try
+        {
+            FileUtils.copyFile(screenshot, new File(path));
+        } catch (Exception e) {}
     }
 
     @AfterTest(alwaysRun = true)
     public void tearDown() {
+        //Logs--------------------------------------------
+        Logs logs = driver.manage().logs();
+        LogEntries logEntries = logs.get(LogType.DRIVER);
+        try{
+        FileWriter writer = new FileWriter("./logsAndScreenshots/Logs.txt");
+            for (LogEntry logEntry : logEntries) {
+                writer.write(logEntry.getMessage() + "\n");
+            }
+            writer.flush();
+            writer.close();
+        } catch (Exception o) {System.out.println("File not found!");}
+        //-------------------------------------------------
+
         driver.close();
         driver.quit();
     }

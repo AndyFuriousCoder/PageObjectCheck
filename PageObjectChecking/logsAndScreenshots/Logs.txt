@@ -1,0 +1,322 @@
+[fxdriver.badCertListener] Found preference for webdriver_assume_untrusted_issuer: true
+[fxdriver.badCertListener] Found preference for webdriver_accept_untrusted_certs: true
+[fxdriver.WdCertOverrideService] Accept untrusted certificates: true
+[fxdriver.Utils] Loading: resource://fxdriver/evaluate.js
+[fxdriver.Utils] Done reading: resource://fxdriver/evaluate.js
+[fxdriver.ServerFactory] Driven by WebDriver version 2.53.1
+[fxdriver.nsCommandProcessor] Received command: newSession
+[fxdriver.wdSessionStoreService] Setting preferences based on required capabilities
+[fxdriver.nsCommandProcessor] Created a new session with id: 13dea9df-781f-4d0a-b46b-f0fada993d9a
+[fxdriver.nsCommandProcessor] Received command: setTimeout
+[fxdriver.nsCommandProcessor] Received command: maximizeWindow
+[fxdriver.nsCommandProcessor] Received command: get
+[fxdriver.wdSession] setWaitForPageLoad false
+[fxdriver.wdSession] setWaitForPageLoad true
+[fxdriver.PatientListener] request status is 0
+[fxdriver.PatientListener] request status is 0
+[fxdriver.nsCommandProcessor] Received command: findElement
+[fxdriver.nsCommandProcessor] Received command: clickElement
+[fxdriver.SyntheticMouse] SyntheticMouse.move https://jdi-framework.github.io/tests/index.htm# 33 30
+[fxdriver.SyntheticMouse] Calling mouse.move with: 33, 30, https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseout 1548.2166748046875, 30, [object HTMLBodyElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseover 1548.2166748046875, 30, https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 1548.2166748046875, 30, https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] SyntheticMouse.click https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] About to do a bot.action.click on https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 1548.2166748046875, 30, https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousedown 1548.2166748046875, 30, https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseup 1548.2166748046875, 30, https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] Calling fireMouseEvent click 1548.2166748046875, 30, https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.Utils] Not loading document anymore.
+[fxdriver.nsCommandProcessor] Received command: findElement
+[fxdriver.nsCommandProcessor] Received command: findElement
+[fxdriver.nsCommandProcessor] Received command: clearElement
+[fxdriver.nsCommandProcessor] Received command: sendKeysToElement
+[fxdriver.WebElement] No need to switch focus
+[fxdriver.Utils] Doing sendKeys...
+[fxdriver.nsCommandProcessor] Received command: clearElement
+[fxdriver.nsCommandProcessor] Received command: sendKeysToElement
+[fxdriver.WebElement] No need to switch focus
+[fxdriver.Utils] Doing sendKeys...
+[fxdriver.nsCommandProcessor] Received command: findElement
+[fxdriver.nsCommandProcessor] Received command: clickElement
+[fxdriver.SyntheticMouse] SyntheticMouse.move [object HTMLButtonElement] 110 17
+[fxdriver.SyntheticMouse] Calling mouse.move with: 110, 17, [object HTMLButtonElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseout 1473, 177, https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseover 1473, 177, [object HTMLButtonElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 1473, 177, [object HTMLButtonElement]
+[fxdriver.SyntheticMouse] SyntheticMouse.click [object HTMLButtonElement]
+[fxdriver.SyntheticMouse] About to do a bot.action.click on [object HTMLButtonElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 1473, 177, [object HTMLButtonElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousedown 1473, 177, [object HTMLButtonElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseup 1473, 177, [object HTMLButtonElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent click 1473, 177, [object HTMLButtonElement]
+[fxdriver.Utils] Not loading document anymore.
+[fxdriver.nsCommandProcessor] Received command: findElement
+[fxdriver.nsCommandProcessor] Received command: isElementEnabled
+[fxdriver.nsCommandProcessor] Received command: get
+[fxdriver.wdSession] setWaitForPageLoad false
+[fxdriver.wdSession] setWaitForPageLoad true
+[fxdriver.PatientListener] request status is 0
+[fxdriver.nsCommandProcessor] Received command: findElement
+[fxdriver.nsCommandProcessor] Received command: clickElement
+[fxdriver.SyntheticMouse] SyntheticMouse.move https://jdi-framework.github.io/tests/index.htm# 33 30
+[fxdriver.SyntheticMouse] Calling mouse.move with: 33, 30, https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseover 1548.2166748046875, 30, https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 1548.2166748046875, 30, https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] SyntheticMouse.click https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] About to do a bot.action.click on https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 1548.2166748046875, 30, https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousedown 1548.2166748046875, 30, https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseup 1548.2166748046875, 30, https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] Calling fireMouseEvent click 1548.2166748046875, 30, https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.PatientListener] request status is 0
+[fxdriver.Utils] Not loading document anymore.
+[fxdriver.nsCommandProcessor] Received command: findElement
+[fxdriver.nsCommandProcessor] Received command: findElement
+[fxdriver.nsCommandProcessor] Received command: clearElement
+[fxdriver.nsCommandProcessor] Received command: sendKeysToElement
+[fxdriver.WebElement] No need to switch focus
+[fxdriver.Utils] Doing sendKeys...
+[fxdriver.nsCommandProcessor] Received command: clearElement
+[fxdriver.nsCommandProcessor] Received command: sendKeysToElement
+[fxdriver.WebElement] No need to switch focus
+[fxdriver.Utils] Doing sendKeys...
+[fxdriver.nsCommandProcessor] Received command: findElement
+[fxdriver.nsCommandProcessor] Received command: clickElement
+[fxdriver.SyntheticMouse] SyntheticMouse.move [object HTMLButtonElement] 110 17
+[fxdriver.SyntheticMouse] Calling mouse.move with: 110, 17, [object HTMLButtonElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseout 1473, 177, https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseover 1473, 177, [object HTMLButtonElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 1473, 177, [object HTMLButtonElement]
+[fxdriver.SyntheticMouse] SyntheticMouse.click [object HTMLButtonElement]
+[fxdriver.SyntheticMouse] About to do a bot.action.click on [object HTMLButtonElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 1473, 177, [object HTMLButtonElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousedown 1473, 177, [object HTMLButtonElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseup 1473, 177, [object HTMLButtonElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent click 1473, 177, [object HTMLButtonElement]
+[fxdriver.Utils] Not loading document anymore.
+[fxdriver.nsCommandProcessor] Received command: findElement
+[fxdriver.nsCommandProcessor] Received command: isElementEnabled
+[fxdriver.nsCommandProcessor] Received command: get
+[fxdriver.wdSession] setWaitForPageLoad false
+[fxdriver.wdSession] setWaitForPageLoad true
+[fxdriver.PatientListener] request status is 0
+[fxdriver.nsCommandProcessor] Received command: findElement
+[fxdriver.nsCommandProcessor] Received command: clickElement
+[fxdriver.SyntheticMouse] SyntheticMouse.move https://jdi-framework.github.io/tests/index.htm# 33 30
+[fxdriver.SyntheticMouse] Calling mouse.move with: 33, 30, https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseover 1548.2166748046875, 30, https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 1548.2166748046875, 30, https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] SyntheticMouse.click https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] About to do a bot.action.click on https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 1548.2166748046875, 30, https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousedown 1548.2166748046875, 30, https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseup 1548.2166748046875, 30, https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] Calling fireMouseEvent click 1548.2166748046875, 30, https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.Utils] Not loading document anymore.
+[fxdriver.nsCommandProcessor] Received command: findElement
+[fxdriver.nsCommandProcessor] Received command: findElement
+[fxdriver.nsCommandProcessor] Received command: clearElement
+[fxdriver.nsCommandProcessor] Received command: sendKeysToElement
+[fxdriver.WebElement] No need to switch focus
+[fxdriver.Utils] Doing sendKeys...
+[fxdriver.nsCommandProcessor] Received command: clearElement
+[fxdriver.nsCommandProcessor] Received command: sendKeysToElement
+[fxdriver.WebElement] No need to switch focus
+[fxdriver.Utils] Doing sendKeys...
+[fxdriver.nsCommandProcessor] Received command: findElement
+[fxdriver.nsCommandProcessor] Received command: clickElement
+[fxdriver.SyntheticMouse] SyntheticMouse.move [object HTMLButtonElement] 110 17
+[fxdriver.SyntheticMouse] Calling mouse.move with: 110, 17, [object HTMLButtonElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseout 1473, 177, https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseover 1473, 177, [object HTMLButtonElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 1473, 177, [object HTMLButtonElement]
+[fxdriver.SyntheticMouse] SyntheticMouse.click [object HTMLButtonElement]
+[fxdriver.SyntheticMouse] About to do a bot.action.click on [object HTMLButtonElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 1473, 177, [object HTMLButtonElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousedown 1473, 177, [object HTMLButtonElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseup 1473, 177, [object HTMLButtonElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent click 1473, 177, [object HTMLButtonElement]
+[fxdriver.Utils] Not loading document anymore.
+[fxdriver.nsCommandProcessor] Received command: findElement
+[fxdriver.nsCommandProcessor] Received command: isElementEnabled
+[fxdriver.nsCommandProcessor] Received command: clickElement
+[fxdriver.SyntheticMouse] SyntheticMouse.move [object HTMLDivElement] 110 17
+[fxdriver.SyntheticMouse] Calling mouse.move with: 110, 17, [object HTMLDivElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseover 1473, 77, [object HTMLDivElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 1473, 77, [object HTMLDivElement]
+[fxdriver.SyntheticMouse] SyntheticMouse.click [object HTMLDivElement]
+[fxdriver.SyntheticMouse] About to do a bot.action.click on [object HTMLDivElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 1473, 77, [object HTMLDivElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousedown 1473, 77, [object HTMLDivElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseup 1473, 77, [object HTMLDivElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent click 1473, 77, [object HTMLDivElement]
+[fxdriver.Utils] Not loading document anymore.
+[fxdriver.nsCommandProcessor] Received command: get
+[fxdriver.wdSession] setWaitForPageLoad false
+[fxdriver.wdSession] setWaitForPageLoad true
+[fxdriver.PatientListener] request status is 0
+[fxdriver.nsCommandProcessor] Received command: findElement
+[fxdriver.nsCommandProcessor] Received command: clickElement
+[fxdriver.SyntheticMouse] SyntheticMouse.move https://jdi-framework.github.io/tests/index.htm# 33 30
+[fxdriver.SyntheticMouse] Calling mouse.move with: 33, 30, https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseover 1548.2166748046875, 30, https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 1548.2166748046875, 30, https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] SyntheticMouse.click https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] About to do a bot.action.click on https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 1548.2166748046875, 30, https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousedown 1548.2166748046875, 30, https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseup 1548.2166748046875, 30, https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] Calling fireMouseEvent click 1548.2166748046875, 30, https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.PatientListener] request status is 0
+[fxdriver.Utils] Not loading document anymore.
+[fxdriver.nsCommandProcessor] Received command: findElement
+[fxdriver.nsCommandProcessor] Received command: findElement
+[fxdriver.nsCommandProcessor] Received command: clearElement
+[fxdriver.nsCommandProcessor] Received command: sendKeysToElement
+[fxdriver.WebElement] No need to switch focus
+[fxdriver.Utils] Doing sendKeys...
+[fxdriver.nsCommandProcessor] Received command: clearElement
+[fxdriver.nsCommandProcessor] Received command: sendKeysToElement
+[fxdriver.WebElement] No need to switch focus
+[fxdriver.Utils] Doing sendKeys...
+[fxdriver.nsCommandProcessor] Received command: findElement
+[fxdriver.nsCommandProcessor] Received command: clickElement
+[fxdriver.SyntheticMouse] SyntheticMouse.move [object HTMLButtonElement] 110 17
+[fxdriver.SyntheticMouse] Calling mouse.move with: 110, 17, [object HTMLButtonElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseout 1473, 177, https://jdi-framework.github.io/tests/index.htm#
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseover 1473, 177, [object HTMLButtonElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 1473, 177, [object HTMLButtonElement]
+[fxdriver.SyntheticMouse] SyntheticMouse.click [object HTMLButtonElement]
+[fxdriver.SyntheticMouse] About to do a bot.action.click on [object HTMLButtonElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 1473, 177, [object HTMLButtonElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousedown 1473, 177, [object HTMLButtonElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseup 1473, 177, [object HTMLButtonElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent click 1473, 177, [object HTMLButtonElement]
+[fxdriver.Utils] Not loading document anymore.
+[fxdriver.nsCommandProcessor] Received command: get
+[fxdriver.wdSession] setWaitForPageLoad false
+[fxdriver.wdSession] setWaitForPageLoad true
+[fxdriver.PatientListener] request status is 0
+[fxdriver.nsCommandProcessor] Received command: findElement
+[fxdriver.nsCommandProcessor] Received command: clickElement
+[fxdriver.SyntheticMouse] SyntheticMouse.move [object HTMLInputElement] 6 6
+[fxdriver.SyntheticMouse] Calling mouse.move with: 6, 6, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseover 360.5, 150, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 360.5, 150, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] SyntheticMouse.click [object HTMLInputElement]
+[fxdriver.SyntheticMouse] About to do a bot.action.click on [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 360.5, 150, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousedown 360.5, 150, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseup 360.5, 150, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent click 360.5, 150, [object HTMLInputElement]
+[fxdriver.Utils] Not loading document anymore.
+[fxdriver.nsCommandProcessor] Received command: isElementSelected
+[fxdriver.nsCommandProcessor] Received command: findElement
+[fxdriver.nsCommandProcessor] Received command: clickElement
+[fxdriver.SyntheticMouse] SyntheticMouse.move [object HTMLInputElement] 6 6
+[fxdriver.SyntheticMouse] Calling mouse.move with: 6, 6, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseout 431.75, 150, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseover 431.75, 150, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 431.75, 150, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] SyntheticMouse.click [object HTMLInputElement]
+[fxdriver.SyntheticMouse] About to do a bot.action.click on [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 431.75, 150, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousedown 431.75, 150, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseup 431.75, 150, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent click 431.75, 150, [object HTMLInputElement]
+[fxdriver.Utils] Not loading document anymore.
+[fxdriver.nsCommandProcessor] Received command: isElementSelected
+[fxdriver.nsCommandProcessor] Received command: findElement
+[fxdriver.nsCommandProcessor] Received command: clickElement
+[fxdriver.SyntheticMouse] SyntheticMouse.move [object HTMLInputElement] 6 6
+[fxdriver.SyntheticMouse] Calling mouse.move with: 6, 6, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseout 500.6333312988281, 150, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseover 500.6333312988281, 150, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 500.6333312988281, 150, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] SyntheticMouse.click [object HTMLInputElement]
+[fxdriver.SyntheticMouse] About to do a bot.action.click on [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 500.6333312988281, 150, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousedown 500.6333312988281, 150, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseup 500.6333312988281, 150, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent click 500.6333312988281, 150, [object HTMLInputElement]
+[fxdriver.Utils] Not loading document anymore.
+[fxdriver.nsCommandProcessor] Received command: isElementSelected
+[fxdriver.nsCommandProcessor] Received command: findElement
+[fxdriver.nsCommandProcessor] Received command: clickElement
+[fxdriver.SyntheticMouse] SyntheticMouse.move [object HTMLInputElement] 6 6
+[fxdriver.SyntheticMouse] Calling mouse.move with: 6, 6, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseout 568.2833251953125, 150, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseover 568.2833251953125, 150, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 568.2833251953125, 150, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] SyntheticMouse.click [object HTMLInputElement]
+[fxdriver.SyntheticMouse] About to do a bot.action.click on [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 568.2833251953125, 150, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousedown 568.2833251953125, 150, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseup 568.2833251953125, 150, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent click 568.2833251953125, 150, [object HTMLInputElement]
+[fxdriver.Utils] Not loading document anymore.
+[fxdriver.nsCommandProcessor] Received command: isElementSelected
+[fxdriver.nsCommandProcessor] Received command: findElement
+[fxdriver.nsCommandProcessor] Received command: clickElement
+[fxdriver.SyntheticMouse] SyntheticMouse.move [object HTMLInputElement] 6 6
+[fxdriver.SyntheticMouse] Calling mouse.move with: 6, 6, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseout 360.5, 196, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseover 360.5, 196, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 360.5, 196, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] SyntheticMouse.click [object HTMLInputElement]
+[fxdriver.SyntheticMouse] About to do a bot.action.click on [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 360.5, 196, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousedown 360.5, 196, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseup 360.5, 196, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent click 360.5, 196, [object HTMLInputElement]
+[fxdriver.Utils] Not loading document anymore.
+[fxdriver.nsCommandProcessor] Received command: isElementSelected
+[fxdriver.nsCommandProcessor] Received command: findElement
+[fxdriver.nsCommandProcessor] Received command: clickElement
+[fxdriver.SyntheticMouse] SyntheticMouse.move [object HTMLInputElement] 6 6
+[fxdriver.SyntheticMouse] Calling mouse.move with: 6, 6, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseout 425.98333740234375, 196, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseover 425.98333740234375, 196, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 425.98333740234375, 196, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] SyntheticMouse.click [object HTMLInputElement]
+[fxdriver.SyntheticMouse] About to do a bot.action.click on [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 425.98333740234375, 196, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousedown 425.98333740234375, 196, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseup 425.98333740234375, 196, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent click 425.98333740234375, 196, [object HTMLInputElement]
+[fxdriver.Utils] Not loading document anymore.
+[fxdriver.nsCommandProcessor] Received command: isElementSelected
+[fxdriver.nsCommandProcessor] Received command: findElement
+[fxdriver.nsCommandProcessor] Received command: clickElement
+[fxdriver.SyntheticMouse] SyntheticMouse.move [object HTMLInputElement] 6 6
+[fxdriver.SyntheticMouse] Calling mouse.move with: 6, 6, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseout 495.683349609375, 196, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseover 495.683349609375, 196, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 495.683349609375, 196, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] SyntheticMouse.click [object HTMLInputElement]
+[fxdriver.SyntheticMouse] About to do a bot.action.click on [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 495.683349609375, 196, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousedown 495.683349609375, 196, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseup 495.683349609375, 196, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent click 495.683349609375, 196, [object HTMLInputElement]
+[fxdriver.Utils] Not loading document anymore.
+[fxdriver.nsCommandProcessor] Received command: isElementSelected
+[fxdriver.nsCommandProcessor] Received command: findElement
+[fxdriver.nsCommandProcessor] Received command: clickElement
+[fxdriver.SyntheticMouse] SyntheticMouse.move [object HTMLInputElement] 6 6
+[fxdriver.SyntheticMouse] Calling mouse.move with: 6, 6, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseout 573.9000244140625, 196, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseover 573.9000244140625, 196, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 573.9000244140625, 196, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] SyntheticMouse.click [object HTMLInputElement]
+[fxdriver.SyntheticMouse] About to do a bot.action.click on [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousemove 573.9000244140625, 196, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mousedown 573.9000244140625, 196, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent mouseup 573.9000244140625, 196, [object HTMLInputElement]
+[fxdriver.SyntheticMouse] Calling fireMouseEvent click 573.9000244140625, 196, [object HTMLInputElement]
+[fxdriver.Utils] Not loading document anymore.
+[fxdriver.nsCommandProcessor] Received command: isElementSelected
+[fxdriver.nsCommandProcessor] Received command: screenshot
+[fxdriver.nsCommandProcessor] Received command: getLog

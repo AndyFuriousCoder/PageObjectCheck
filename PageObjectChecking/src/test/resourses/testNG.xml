@@ -6,7 +6,7 @@
     <test name="testingPageObjects">
         <parameter name="browser" value="firefox" />
         <classes>
-            <class name="com.examples.test.PageObjectChecking">
+            <class name="testCode.PageObjectChecking">
                 <methods>
                     <include name = "testingLogin"/>
                     <include name = "testingPageObjects"/>

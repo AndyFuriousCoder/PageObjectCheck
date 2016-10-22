@@ -1,4 +1,4 @@
-package com.examples.test;
+package pageObjects;
 
 import org.apache.http.util.Asserts;
 import org.openqa.selenium.By;
