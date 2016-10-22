@@ -81,7 +81,7 @@ public class PageObjectChecking {
         //get screenshot
         File screenshot = ((TakesScreenshot) driver).
                 getScreenshotAs(OutputType.FILE);
-        String path = "./logsAndScreenshots/screenshots/" + screenshot.getName();
+        String path = "./src/test/java/logsAndScreenshots/screenshots/" + screenshot.getName();
         try
         {
             FileUtils.copyFile(screenshot, new File(path));
@@ -94,7 +94,7 @@ public class PageObjectChecking {
         Logs logs = driver.manage().logs();
         LogEntries logEntries = logs.get(LogType.DRIVER);
         try{
-        FileWriter writer = new FileWriter("./logsAndScreenshots/Logs.txt");
+        FileWriter writer = new FileWriter("./src/test/java/logsAndScreenshots/Logs.txt");
             for (LogEntry logEntry : logEntries) {
                 writer.write(logEntry.getMessage() + "\n");
             }
