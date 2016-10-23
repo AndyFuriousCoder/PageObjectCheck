@@ -24,18 +24,19 @@ import static org.testng.Assert.assertTrue;
 
 public class PageObjectChecking {
     private WebDriver driver; //used WebDriver
-    private DesiredCapabilities cap;
+  
 
     //Select browser
     @Parameters("browser")
+
     @BeforeTest(alwaysRun = true)
     public void selectBrowser(String browser)
     {
-        if (browser.equalsIgnoreCase("firefox")) driver = new FirefoxDriver(cap);
-        if (browser.equalsIgnoreCase("ie")) driver = new InternetExplorerDriver(cap);
-        if (browser.equalsIgnoreCase("chrome")) driver = new ChromeDriver(cap);
-        if (browser.equalsIgnoreCase("opera")) driver = new OperaDriver(cap);
-        if (browser.equalsIgnoreCase("safari")) driver = new SafariDriver(cap);
+        if (browser.equalsIgnoreCase("firefox")) driver = new FirefoxDriver();
+        if (browser.equalsIgnoreCase("ie")) driver = new InternetExplorerDriver();
+        if (browser.equalsIgnoreCase("chrome")) driver = new ChromeDriver();
+        if (browser.equalsIgnoreCase("opera")) driver = new OperaDriver();
+        if (browser.equalsIgnoreCase("safari")) driver = new SafariDriver();
     }
 
     @BeforeClass(alwaysRun = true)
