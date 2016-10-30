@@ -18,7 +18,7 @@ public class SetUp {
     public static WebDriver getWebdriver()
     {
         //String browser = java.lang.System.getProperties().getProperty("webbrowser");
-        String browser = "chrome";
+        String browser = "ie";
         if (browser.equalsIgnoreCase("firefox")) driver = new FirefoxDriver();
         if (browser.equalsIgnoreCase("ie")) driver = new InternetExplorerDriver();
         if (browser.equalsIgnoreCase("chrome")) driver = new ChromeDriver();
