@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import static com.thoughtworks.selenium.SeleneseTestBase.assertTrue;
+
 //this page object is used for login
 public class LoginElement {
     private WebElement userName;
@@ -32,6 +34,18 @@ public class LoginElement {
         password.clear();
         password.sendKeys(psw);
         driver.findElement(By.xpath("//button[@type='submit']")).click();
+    }
+
+    public void checkAuthorizing(boolean statement)
+    {
+        if (statement) {
+            WebElement logoutElement = driver.findElement(By.cssSelector(".logout"));
+            assertTrue((logoutElement).isEnabled());
+            logoutElement.click();
+        }
+        else {
+            assertTrue((driver.findElement(By.xpath("//button[@type='submit']"))).isEnabled());
+        }
     }
 
 }
