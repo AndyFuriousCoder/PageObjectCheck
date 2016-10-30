@@ -12,10 +12,13 @@ public class PageObjectChecking extends AbstractTest{
     private static WebDriver driver; //used WebDriver
 
 
-
+    public static WebDriver getWebDriver()
+    {
+        return driver;
+    }
 
     @BeforeTest(alwaysRun = true)
-    public static void setUp()
+    public void setUp()
     {
        driver = SetUp.getWebdriver();
     }
