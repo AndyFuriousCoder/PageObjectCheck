@@ -15,7 +15,7 @@ public class PageObjectChecking extends AbstractTest{
 
 
     @BeforeTest(alwaysRun = true)
-    public void setUp()
+    public static void setUp()
     {
        driver = SetUp.getWebdriver();
     }
