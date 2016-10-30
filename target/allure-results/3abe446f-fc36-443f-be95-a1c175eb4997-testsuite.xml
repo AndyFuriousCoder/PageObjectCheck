@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1477504190434" stop="1477504207489" version="1.4.16" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Suite : testingPageObjects[browser=firefox]</name>
+    <title>Suite : testingPageObjects[browser=firefox]</title>
+    <test-cases>
+        <test-case start="1477504198174" stop="1477504200928" status="passed">
+            <name>testingLogin[false,epam,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-J7K1C7R"/>
+                <label name="thread" value="5320@DESKTOP-J7K1C7R.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1477504198174" stop="1477504200928" status="passed">
+            <name>testingLogin[false,epam,123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-J7K1C7R"/>
+                <label name="thread" value="5320@DESKTOP-J7K1C7R.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1477504201024" stop="1477504201968" status="passed">
+            <name>testingLogin[false,login,1234]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-J7K1C7R"/>
+                <label name="thread" value="5320@DESKTOP-J7K1C7R.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1477504201024" stop="1477504201968" status="passed">
+            <name>testingLogin[false,login,1234]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-J7K1C7R"/>
+                <label name="thread" value="5320@DESKTOP-J7K1C7R.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1477504201970" stop="1477504203280" status="passed">
+            <name>testingLogin[true,epam,1234]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-J7K1C7R"/>
+                <label name="thread" value="5320@DESKTOP-J7K1C7R.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1477504201970" stop="1477504203280" status="passed">
+            <name>testingLogin[true,epam,1234]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-J7K1C7R"/>
+                <label name="thread" value="5320@DESKTOP-J7K1C7R.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1477504203285" stop="1477504206252" status="passed">
+            <name>testingPageObjects</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-J7K1C7R"/>
+                <label name="thread" value="5320@DESKTOP-J7K1C7R.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1477504203285" stop="1477504206252" status="passed">
+            <name>testingPageObjects</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="DESKTOP-J7K1C7R"/>
+                <label name="thread" value="5320@DESKTOP-J7K1C7R.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

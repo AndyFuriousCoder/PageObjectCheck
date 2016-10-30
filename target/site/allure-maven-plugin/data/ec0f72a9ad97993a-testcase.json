@@ -1,0 +1,47 @@
+{
+  "uid" : "ec0f72a9ad97993a",
+  "name" : "testingRadioButtonsElements[Selen]",
+  "title" : "Testing radio buttons elements [Selen]",
+  "time" : {
+    "start" : 1477854939541,
+    "stop" : 1477854939663,
+    "duration" : 122
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "e8068fa2d866180a",
+    "name" : "Suite : testingPageObjects[browser=firefox]",
+    "title" : "Suite : testingPageObjects[browser=firefox]"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-J7K1C7R"
+  }, {
+    "name" : "thread",
+    "value" : "5932@DESKTOP-J7K1C7R.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : testingPageObjects[browser=firefox]"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : testingPageObjects[browser=firefox]"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}
