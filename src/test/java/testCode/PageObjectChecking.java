@@ -39,7 +39,6 @@ public class PageObjectChecking extends AbstractTest{
         new LoginElement(driver).authorize("epam", "1234");
         //go to page with checkboxes and radioboxes
         driver.navigate().to("https://jdi-framework.github.io/tests/page8.htm");
-        assertTrue(false);
     }
 
     @Test(enabled = true, dataProviderClass = CheckBoxElementData.class, dataProvider = "testingCheckBoxElements")
